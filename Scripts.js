@@ -48,7 +48,7 @@ const formatter2 = new Intl.NumberFormat('fr-FR', {
   var salaire = url.searchParams.get("salaire");
   var nbJours = document.getElementById("nbJours").innerHTML = "20";
   var ca = tjm * nbJours ;
-  var societe = 48.10;
+  var societe = 80.32;
   var caCalcule = ca ;
   var cainto100 = ca / 100 ;
   var remuneration = cainto100 * societe ;
