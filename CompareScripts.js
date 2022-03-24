@@ -21,7 +21,7 @@ Webflow.push(function () {
             quality: "3"
             }).then(canvas => {
                 this.imgFile = canvas;
-                doc.addImage(this.imgFile, "PNG", 0, 0,width,height);
+                doc.addImage(this.imgFile, "PNG", 0, 0,width);
                 doc.save("Comparatif" + ".pdf");		
         			});        
     }
