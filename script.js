@@ -1,6 +1,4 @@
 
-  
-<script type="text/javascript">	
   var url_string = window.location.href;
   var url = new URL(url_string);
   const formatter1 = new Intl.NumberFormat('fr-FR', {
@@ -605,4 +603,3 @@ var societeMob18 = 55.16;
   document.getElementById("mySocieteMob18").innerHTML = societeMob18 + "%";
   document.getElementById("myRemTotaleMob18").innerHTML = formatter1.format(remunerationMob18);
   document.getElementById("myRemTotaleAnnuelleMob18").innerHTML = formatter1.format(remunerationAnnuelleMob18);  
-</script>
