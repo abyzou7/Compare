@@ -267,7 +267,7 @@ else if(320 <= tjmCegelem && tjmCegelem < 340){
 else if(340 <= tjmCegelem && tjmCegelem < 360){
     caPourcentCegelem = 54.54;
 }
-else if(360 <= tjmCegele && tjmCegelemm < 380){
+else if(360 <= tjmCegelem && tjmCegelem < 380){
     caPourcentCegelem = 54.41;
 }
 else if(380 <= tjmCegelem && tjmCegelem < 400){
