@@ -2984,96 +2984,6 @@ document.getElementById("myFraisABCPortage").innerHTML = formatter2.format(frais
 var tjmPrium = url.searchParams.get("tjm");
 var fraisPrium = 360;
 var nbJoursPrium = document.getElementById("nbJoursPrium").innerHTML = "20";
-var caPrium = tjmPrium * nbJoursPrium 
-var caPourcentPrium;
-var cainto100Prium = caPrium / 100;
-var fraisGestionPrium = 8;
-
-
-if(tjmPrium <= 300  && tjmPrium < 330){
-   caPourcentPrium = 53.05;
-}
-else if(tjmPrium <= 330 && tjmPrium < 420){
-    caPourcentPrium = 53.06;
-}
-else if(tjmPrium <= 420 && tjmPrium < 430){
-    caPourcentPrium = 51.79;
-}
-else if(tjmPrium <= 430 && tjmPrium < 440){
-    caPourcentPrium = 51.83;
-}
-else if(tjmPrium <= 440 && tjmPrium < 450){
-    caPourcentPrium = 51.86;
-}
-else if(tjmPrium <= 450 && tjmPrium < 460){
-    caPourcentPrium = 51.88;
-}
-else if(tjmPrium <= 460 && tjmPrium < 470){
-    caPourcentPrium = 51.91;
-}
-else if(tjmPrium <= 470 && tjmPrium < 480){
-    caPourcentPrium = 51.94;
-}
-else if(tjmPrium <= 480 && tjmPrium < 490){
-    caPourcentPrium = 51.96;
-}
-else if(tjmPrium <= 490 && tjmPrium < 500){
-    caPourcentPrium = 51.99;
-}
-else if(tjmPrium <= 500 && tjmPrium < 510){
-    caPourcentPrium = 53.08;
-}
-else if(tjmPrium <= 510 && tjmPrium < 520){
-    caPourcentPrium = 52.34;
-}
-else if(tjmPrium <= 520 && tjmPrium < 530){
-    caPourcentPrium = 52.36;
-}
-else if(tjmPrium <= 530 && tjmPrium < 540){
-    caPourcentPrium = 52.37;
-}
-else if(tjmPrium <= 540 && tjmPrium < 550){
-    caPourcentPrium = 52.38;
-}
-else if(tjmPrium <= 550 && tjmPrium < 560){
-    caPourcentPrium = 52.40;
-}
-else if(tjmPrium <= 560 && tjmPrium < 570){
-    caPourcentPrium = 52.41;
-}
-else if(tjmPrium <= 570 && tjmPrium < 580){
-    caPourcentPrium = 52.42;
-}
-else if(tjmPrium <= 580 && tjmPrium < 590){
-    caPourcentPrium = 52.44;
-}
-else if(tjmPrium <= 590 && tjmPrium < 600){
-    caPourcentPrium = 52.45;
-}
-else if(tjmPrium <= 600 && tjmPrium < 690){
-    caPourcentPrium = 53.06;
-}
-else if(tjmPrium <= 690 && tjmPrium < 700){
-    caPourcentPrium = 53.07;
-}
-else if(tjmPrium <= 700){
-    caPourcentPrium = 53.06;
-}
-
-var remunerationPrium = cainto100Prium * caPourcentPrium;
-document.getElementById("mySocietePrium").innerHTML = caPourcentPrium + "%";
-document.getElementById("myRemTotalePrium").innerHTML = formatter1.format(remunerationPrium);
-document.getElementById("myTjmPrium").innerHTML = formatter2.format(tjmPrium);
-document.getElementById("caTotalPrium").innerHTML = formatter2.format(caPrium);
-document.getElementById("myFraisPrium").innerHTML = formatter2.format(fraisPrium);
-document.getElementById("myFraisGestionPrium").innerHTML = fraisGestionPrium + "%";
-
-
-// Société Prium
-
-var tjmPrium = url.searchParams.get("tjm");
-var fraisPrium = 360;
-var nbJoursPrium = document.getElementById("nbJoursPrium").innerHTML = "20";
 var caPrium = tjmPrium * nbJoursPrium ;
 var caPourcentPrium;
 var cainto100Prium = caPrium / 100;
@@ -3211,6 +3121,96 @@ document.getElementById("caTotalPrium").innerHTML = formatter2.format(caPrium);
 document.getElementById("myFraisPrium").innerHTML = formatter2.format(fraisPrium);
 document.getElementById("myFraisGestionPrium").innerHTML = fraisGestionPrium + "%";
 
+
+
+// Société Pns
+
+var tjmPns = url.searchParams.get("tjm");
+var fraisPns = 360;
+var nbJoursPns = document.getElementById("nbJoursPns").innerHTML = "20";
+var caPns = tjmPns * nbJoursPns 
+var caPourcentPns;
+var cainto100Pns = caPns / 100;
+var fraisGestionPns = 8;
+
+
+if(tjmPns <= 300  && tjmPns < 330){
+   caPourcentPns = 53.05;
+}
+else if(tjmPns <= 330 && tjmPns < 420){
+    caPourcentPns = 53.06;
+}
+else if(tjmPns <= 420 && tjmPns < 430){
+    caPourcentPns = 51.79;
+}
+else if(tjmPns <= 430 && tjmPns < 440){
+    caPourcentPns = 51.83;
+}
+else if(tjmPns <= 440 && tjmPns < 450){
+    caPourcentPns = 51.86;
+}
+else if(tjmPns <= 450 && tjmPns < 460){
+    caPourcentPns = 51.88;
+}
+else if(tjmPns <= 460 && tjmPns < 470){
+    caPourcentPns = 51.91;
+}
+else if(tjmPns <= 470 && tjmPns < 480){
+    caPourcentPns = 51.94;
+}
+else if(tjmPns <= 480 && tjmPns < 490){
+    caPourcentPns = 51.96;
+}
+else if(tjmPns <= 490 && tjmPns < 500){
+    caPourcentPns = 51.99;
+}
+else if(tjmPns <= 500 && tjmPns < 510){
+    caPourcentPns = 53.08;
+}
+else if(tjmPns <= 510 && tjmPns < 520){
+    caPourcentPns = 52.34;
+}
+else if(tjmPns <= 520 && tjmPns < 530){
+    caPourcentPns = 52.36;
+}
+else if(tjmPns <= 530 && tjmPns < 540){
+    caPourcentPns = 52.37;
+}
+else if(tjmPns <= 540 && tjmPns < 550){
+    caPourcentPns = 52.38;
+}
+else if(tjmPns <= 550 && tjmPns < 560){
+    caPourcentPns = 52.40;
+}
+else if(tjmPns <= 560 && tjmPns < 570){
+    caPourcentPns = 52.41;
+}
+else if(tjmPns <= 570 && tjmPns < 580){
+    caPourcentPns = 52.42;
+}
+else if(tjmPns <= 580 && tjmPns < 590){
+    caPourcentPns = 52.44;
+}
+else if(tjmPns <= 590 && tjmPns < 600){
+    caPourcentPns = 52.45;
+}
+else if(tjmPns <= 600 && tjmPns < 690){
+    caPourcentPns = 53.06;
+}
+else if(tjmPns <= 690 && tjmPns < 700){
+    caPourcentPns = 53.07;
+}
+else if(tjmPns <= 700){
+    caPourcentPns = 53.06;
+}
+
+var remunerationPns = cainto100Pns * caPourcentPns;
+document.getElementById("mySocietePns").innerHTML = caPourcentPns + "%";
+document.getElementById("myRemTotalePns").innerHTML = formatter1.format(remunerationPns);
+document.getElementById("myTjmPns").innerHTML = formatter2.format(tjmPns);
+document.getElementById("caTotalPns").innerHTML = formatter2.format(caPns);
+document.getElementById("myFraisPns").innerHTML = formatter2.format(fraisPns);
+document.getElementById("myFraisGestionPns").innerHTML = fraisGestionPns + "%";
 
 
 
